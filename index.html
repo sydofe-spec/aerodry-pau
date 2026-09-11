@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroDry Pau - Location Déshumidificateur de Chantier</title>
+    <style>
+        :root {
+            --primary: #0F172A;
+            --accent: #0284C7;
+            --success: #22C55E;
+            --text: #334155;
+            --light: #F8FAFC;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text);
+            line-height: 1.6;
+            background-color: var(--light);
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 { font-size: 2.3rem; margin-bottom: 10px; color: white; }
+        h2 { font-size: 1.3rem; font-weight: normal; margin-bottom: 25px; color: #94A3B8; }
+        .btn-call {
+            display: inline-block;
+            background-color: var(--success);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--accent);
+        }
+        .price {
+            font-size: 1.8rem;
+            color: var(--primary);
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .features {
+            background-color: #EEF2F6;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .partner {
+            background-color: var(--primary);
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .partner h3 { color: white; margin-top: 0; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            color: #64748B;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>AeroDry Béarn</h1>
+            <h2>Urgence Humidité à Pau ? Votre Déshumidificateur Industriel livré sur chantier en moins de 4 heures.</h2>
+            <a href="tel:0600000000" class="btn-call">📞 APPELER UN EXPERT LOCAL : 06 XX XX XX XX</a>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: #CBD5E1;">Disponible 6j/7 — Intervention rapide sur Pau, Lons, Lescar, Tarbes et Orthez.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center; color: var(--primary); font-weight: bold; margin-top: 40px;">Nos Tarifs de Location Transparents</h2>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>Pack Séchage Rénovation & Sinistres</h3>
+                <p>Idéal pour les appartements, maisons individuelles et pièces jusqu'à 100 m² après un dégât des eaux ou des travaux de plâtrerie.</p>
+                <p><strong>Performance :</strong> Extrait jusqu'à 52 Litres / 24h.</p>
+                <div class="price">45 € HT / Jour</div>
+                <p style="font-size: 0.9rem; color: #64748B;">Ou 210 € HT / Semaine (Tarif dégressif)</p>
+            </div>
+
+            <div class="card">
+                <h3>Pack Gros Œuvre & Chapes Béton</h3>
+                <p>Conçu pour les chantiers de construction neuve, le séchage rapide des dalles de béton de grandes surfaces et les entrepôts.</p>
+                <p><strong>Performance :</strong> Extrait jusqu'à 70 Litres / 24h.</p>
+                <div class="price">65 € HT / Jour</div>
+                <p style="font-size: 0.9rem; color: #64748B;">Ou 290 € HT / Semaine</p>
+            </div>
+        </div>
+
+        <div class="features">
+            <h3 style="margin-top: 0; color: var(--primary);">Pourquoi choisir AeroDry plutôt qu'un loueur généraliste ?</h3>
+            <ul>
+                <li><strong>⚡ Zéro Perte de Temps :</strong> Pas de dossier pro interminable. Un appel, nous validons et livrons sur votre chantier dans la demi-journée.</li>
+                <li><strong>📊 Conformité Assurances à 100% :</strong> Nos machines intègrent des compteurs d'heures certifiés, indispensables pour le remboursement intégral par votre assurance.</li>
+                <li><strong>❄️ Efficacité Hivernale :</strong> Nos compresseurs professionnels fonctionnent parfaitement dès 5°C, même sur les chantiers béarnais non chauffés.</li>
+            </ul>
+        </div>
+
+        <div class="partner">
+            <h3>Vous êtes Plombier, Électricien ou Maître d'Œuvre en Béarn ?</h3>
+            <p>Ne laissez pas vos chantiers bloqués par l'humidité. Devenez partenaire AeroDry et touchez 10% de commission d'apport d'affaires sur chaque location, ou offrez cette remise à votre client.</p>
+            <a href="mailto:contact@aerodry-pau.fr" class="btn-call" style="background-color: var(--accent);">Devenir Artisan Partenaire</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 AeroDry Béarn - Tous droits réservés. Forfait livraison et reprise direct chantier.</p>
+    </footer>
+
+</body>
+</html>
